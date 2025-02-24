@@ -1,8 +1,13 @@
 package metier;
 
 import dao.IDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component("metier")
 public class MetierImpl implements IMetier {
+
+    @Autowired  // cela signiphie injhecte et cela a une relation avec l injection des dependances avec le framework spring Version annotations
     private IDao dao;
     // Constructor
 
