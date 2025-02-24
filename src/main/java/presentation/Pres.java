@@ -10,6 +10,7 @@ public class Pres {
         MetierImpl metier = new MetierImpl();
         metier.setDao(dao);
         System.out.println(metier.calcul());
+        System.out.println("test");
 
         // ici notre couche presentation n est pas fermee a la modification
         // donc obligee de modifier le code source donc ce n est pas bon
