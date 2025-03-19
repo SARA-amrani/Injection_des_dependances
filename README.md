@@ -55,7 +55,7 @@ Cette architecture permet une séparation claire des couches et facilite l’inj
 
 ![l’injection statique](captures/image6.png)
 
-        ### résultat de l'exécution
+   ### résultat de l'exécution
 
 ![l’injection statique](captures/image7.png)
 
@@ -76,7 +76,7 @@ Cette architecture permet une séparation claire des couches et facilite l’inj
          => Code pour cette version
       ![Fichier XML de configuration Spring](captures/image12.png)
 
-              ### résultat de l'exécution
+            ### résultat de l'exécution
 
       ![Fichier XML de configuration Spring](captures/image11.png)
 
