@@ -69,6 +69,7 @@ Cette architecture permet une séparation claire des couches et facilite l’inj
     ![l’injection dynamique](captures/image9.png)
 
 3. **Injection en utilisant le framework Spring**
+
    a. **Version XML**
     - Configuration des beans dans un fichier XML.
 
