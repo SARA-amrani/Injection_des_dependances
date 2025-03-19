@@ -68,26 +68,27 @@ Cette architecture permet une séparation claire des couches et facilite l’inj
 
     ![l’injection dynamique](captures/image9.png)
 
-   3. **Injection en utilisant le framework Spring**
-      a. **Version XML**
-       - Configuration des beans dans un fichier XML.
-         => Fichier XML de configuration Spring
-      ![Fichier XML de configuration Spring](captures/image10.png)
-         => Code pour cette version
-      ![Fichier XML de configuration Spring](captures/image12.png)
+3. **Injection en utilisant le framework Spring**
+   a. **Version XML**
+    - Configuration des beans dans un fichier XML.
 
-            ### résultat de l'exécution
+    => Fichier XML de configuration Spring
+   ![Fichier XML de configuration Spring](captures/image10.png)
+    => Code pour cette version
+   ![Fichier XML de configuration Spring](captures/image12.png)
 
-      ![Fichier XML de configuration Spring](captures/image11.png)
+   ### résultat de l'exécution
 
-      b. **Version annotations**
-       - Utilisation des annotations `@Component`, `@Autowired`, et `@Service`.
+   ![Fichier XML de configuration Spring](captures/image11.png)
 
-      ![annotations Spring](captures/image13.png)
+   b. **Version annotations**
+    - Utilisation des annotations `@Component`, `@Autowired`, et `@Service`.
 
-         ### résultat de l'exécution
+   ![annotations Spring](captures/image13.png)
 
-      ![annotations Spring](captures/image14.png)
+      ### résultat de l'exécution
+
+   ![annotations Spring](captures/image14.png)
 
 ## CONCLUSION
 
