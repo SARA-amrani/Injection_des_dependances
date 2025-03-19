@@ -4,7 +4,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="d" class="dao.DaoImpl"></bean>
     <bean id="metier" class="metier.MetierImpl">
+        <!-- cela injection via le setter -->
         <property name="dao" ref="d"></property>
+        <!-- cela injection via le constructeur -->
+        <constructor-arg ref="d"></constructor-arg>
     </bean>
 
 </beans>

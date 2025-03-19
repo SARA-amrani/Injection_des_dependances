@@ -2,19 +2,19 @@ package metier;
 
 import dao.IDao;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Component("metier")
+@Component("metier") // remplace : <bean id="metier" class="metier.MetierImpl">
 public class MetierImpl implements IMetier {
 
-    @Autowired  // cela signiphie injhecte et cela a une relation avec l injection des dependances avec le framework spring Version annotations
+    @Autowired  // cela signifie injecte et cela a une relation avec l injection des dependances avec le framework spring Version annotations
     private IDao dao;
     // Constructor
 
     public MetierImpl() {
     }
-
-    public MetierImpl(IDao dao) {
+    public MetierImpl(@Qualifier("dao2") IDao dao) {
         this.dao = dao;
     }
 
